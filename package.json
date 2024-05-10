@@ -1,0 +1,19 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "benchmark": "ts-node --compiler-options '{\"lib\":[\"dom\"]}' script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "benny": "^3.7.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
